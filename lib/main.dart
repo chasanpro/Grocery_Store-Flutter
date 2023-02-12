@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:grocery/orderDetails.dart';
 
-import 'package:grocery/Auth.dart';
-import 'package:grocery/Home.dart';
+
 
 
 void main() {
@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
 primarySwatch: Colors.green
       ),
         debugShowCheckedModeBanner: false,
-        home: const homeScreen()
+        home: const orderDetails()
     );
   }
 }

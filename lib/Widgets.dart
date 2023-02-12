@@ -1,3 +1,4 @@
+// ignore: file_names
 import 'package:flutter/material.dart';
 import 'package:grocery/colors.dart';
 
@@ -54,8 +55,9 @@ class BNBCustomPainter extends CustomPainter {
     Path path = Path();
 
     path.moveTo(0, 20);
+    // Start
 
-    path.quadraticBezierTo(size.width * 0.10, 0, size.width * 0.15, 0); // Start
+
     path.quadraticBezierTo(size.width * 0.20, 0, size.width * 0.35, 0);
     path.quadraticBezierTo(size.width * 0.40, 0, size.width * 0.40, 20);
     path.arcToPoint(Offset(size.width * 0.60, 20),
@@ -73,4 +75,18 @@ class BNBCustomPainter extends CustomPainter {
   bool shouldRepaint(CustomPainter oldDelegate) {
     return false;
   }
+}
+photo() {
+// ignore: prefer_const_constructors
+  return SizedBox(
+    width: 50,
+    height: 55,
+    child: ClipRRect(
+      borderRadius: BorderRadius.circular(70),
+      child: Image.network(
+        "https://i.pinimg.com/originals/e6/94/cb/e694cb86565542d06f6affd9d67ecad3.jpg",
+        fit: BoxFit.fill,
+      ),
+    ),
+  );
 }

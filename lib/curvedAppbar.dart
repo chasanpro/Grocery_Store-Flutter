@@ -47,8 +47,8 @@ class AppBarPainter extends CustomPainter {
   }
 
   @override
-  bool shouldRepaint(covariant CustomPainter oldDelegate) {
-    // TODO: implement shouldRepaint
+  shouldRepaint(covariant CustomPainter oldDelegate) {
+
     throw UnimplementedError();
   }
 }
