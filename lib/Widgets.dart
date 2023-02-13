@@ -38,6 +38,19 @@ Sqirlce(Widget sub, double x, y) {
       ),
       child: sub);
 }
+Widget realText(String label, double sz) {
+  return Text(
+    label,
+    style: TextStyle(color: Colors.white, fontSize: sz),
+  );
+}
+
+Widget realblktxt(String label, double sz) {
+  return Text(
+    label,
+    style: TextStyle(color: const Color.fromARGB(255, 0, 0, 0), fontSize: sz),
+  );
+}
 
 SpaceBox(double h) {
   return SizedBox(

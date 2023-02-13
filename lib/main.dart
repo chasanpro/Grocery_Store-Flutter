@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:grocery/orderDetails.dart';
+import 'package:grocery/screenList.dart';
 
 
 
@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
 primarySwatch: Colors.green
       ),
         debugShowCheckedModeBanner: false,
-        home: const orderDetails()
+        home: const screenList()
     );
   }
 }

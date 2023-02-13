@@ -54,7 +54,7 @@ class orderDetails extends StatelessWidget {
                       borderRadius: BorderRadius.circular(25),
                       color: Colors.white,
                     ),
-                    child: StepperDemo(),
+                    child: const StepperDemo(),
                   ),
                 ],
               )),

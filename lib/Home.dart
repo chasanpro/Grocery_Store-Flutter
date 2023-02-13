@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
 import 'package:grocery/Widgets.dart';
 import 'package:grocery/categories.dart';
 
